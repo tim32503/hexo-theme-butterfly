@@ -3,3 +3,5 @@
     include ./share-js.pug
   else if theme.addtoany.enable
     !=partial('includes/third-party/share/addtoany', {}, {cache: true})
+  else if theme.sharethis.enable
+    include ./sharethis.pug

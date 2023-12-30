@@ -398,6 +398,12 @@ addtoany:
   enable: false
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
+# sharethis
+# https://sharethis.com/
+sharethis:
+  enable: false
+  install_url: ''
+
 # Comments System
 # --------------------------------------
 
