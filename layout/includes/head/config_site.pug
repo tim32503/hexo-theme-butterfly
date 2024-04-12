@@ -28,3 +28,12 @@ script#config-diff.
     isToc: !{showToc},
     postUpdate: '!{full_date(page.updated)}'
   }
+
+//- 結構化資料
+script(type="application/ld+json").
+  {
+    "@context" : "https://schema.org",
+    "@type" : "WebSite",
+    "name" : "!{config.title}",
+    "url" : "!{config.url}"
+  }
